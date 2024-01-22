@@ -10,14 +10,14 @@ import requests
 import base64
 
 # Ваши настройки телеграм-бота
-TOKEN = '6809168718:AAHu0neOmPosOZAQKmdfYQpFABBc8jV2HuI'
+TOKEN = ''
 ADMIN_USER_IDS = ['428167246']
 
 # Ваши настройки для отправки почты
 EMAIL_HOST = 'mail.yarbroiler.ru'
 EMAIL_PORT = 25
-EMAIL_USERNAME = 'kmv'
-EMAIL_PASSWORD = 'rewfy76'
+EMAIL_USERNAME = ''
+EMAIL_PASSWORD = ''
 RECIPIENT_EMAIL = 'kmv@yarbroiler.ru'
 
 logging.basicConfig(filename='bot.log', filemode='a', format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG)
